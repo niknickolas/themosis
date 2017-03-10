@@ -1,0 +1,27 @@
+### Miscellaneous
+.DS_Store
+Thumbs.db
+
+### Composer
+composer.lock
+vendor/
+
+### IDE
+.idea/
+
+### PHPCS
+cs_fixer*
+
+### Wordpress
+/htdocs/cms/*
+!/htdocs/cms/.gitkeep
+/htdocs/content/languages/
+/htdocs/content/uploads/
+/htdocs/content/upgrade/
+
+
+### Environment Credentials
+.env
+.env.*
+!.env.local
+!.env.example
